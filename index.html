@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <img class="hidden" src  alt="reletive-img">
+
+    <img class="image-screen" src="./style/image/logo-dark.png" alt="">
+    <div class="page">
+
+        <div class="sidbar">
+            <img class="image" src="./style/image/logo-dark.png" alt="">
+            <div class="sidbar-items">
+                <ul class="items">
+                    <li class="item active-sid">
+                        <img src="./style/image/house.svg" alt="home icon">
+                        <p>Home</p>
+                    </li>
+                    <li class="item">
+                        <img src="./style/image/gem.svg" alt="home icon">
+                        <p>Product</p>
+                    </li>
+                    <li class="item">
+                        <img src="./style/image/person.svg" alt="home icon">
+                        <p>Customers</p>
+                    </li>
+                    <li class="item">
+                        <img src="./style/image/shop.svg" alt="home icon">
+                        <p>Shope</p>
+                    </li>
+                    <li class="item">
+                        <img src="./style/image/pie-chart.svg" alt="home icon">
+                        <p>Income</p>
+                    </li>
+                    <li class="item">
+                        <img src="./style/image/percent.svg" alt="home icon">
+                        <p>Promote</p>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <div class="web-page">
+
+        <header>
+            <div class="search-box">
+                <img src="./style/image/search.svg" class="icon-search" alt="">
+                
+                <input id="search" type="search" placeholder="Search..">
+                
+                
+                
+            </div>
+            <div class="button-div">
+                <button class="sing-in">Sing-in</button>
+                <button class="sing-up">Sing-up</button>
+
+            </div>
+        </header>
+        <div class="container">
+            <h2>Doshbord</h2>
+            <div class="con-row">
+                <div class="left-page">
+                    <div class="overview">
+
+                        <div class="title">
+                            <div class=" first flex">
+                                <div></div>
+                                <h4>Overview</h4>
+        
+                            </div>
+                            <select name="time" id="time">
+                               
+                                    <option class="option" value="allTime">All time</option>
+                                    <option class="option" value="inYear">In year</option>
+                                    <option class="option" value="perMonth">Per month</option>
+        
+                               
+        
+                            </select>
+                        
+                        </div>
+                        <div class="fade">
+                             <div class="card bg-light">
+                                 <div class="icon">
+        
+                                     <img src="./style/image/bag.svg" alt="shope" class="icon">
+                                 </div>
+                                 <div class="text-info">
+                                     <p class="c1">Customers!</p>
+                                     <h1 class="c2">1024</h1>
+                                 </div>
+                             </div>
+                             <div class="card">
+                                <div class="icon">
+        
+                                    <img src="./style/image/activity.svg" alt="shope" class="icon">
+                                </div>
+                                 <div class="text-info">
+                                     <p class="i1">income;</p>
+                                     <h1 class="i2">1024</h1>
+                             </div>
+                         </div>
+                         
+                         </div>
+                         <div class="user-info">
+                            <div class="title">
+                                <p>
+                                    Welcome <strong> dolor sit amet consectetur </strong> adipisicing elit. Quibusdam, reprehenderit😎.
+                                </p>
+                               <button>Send masage</button>
+                            
+                            </div>
+                            <div class="users">
+                                <ul >
+                                    <li>
+                                        <img src="./style/image/images.jpeg" alt="persone">
+                                        <p>alireza</p>
+                                    </li>
+                                    <li>
+                                        <img src="./style/image/download (3).jpeg" alt="persone">
+                                        <p>alireza</p>
+                                    </li>
+                                    <li>
+                                        <img src="./style/image/download (2).jpeg" alt="persone">
+                                        <p>alireza</p>
+                                    </li>
+                                    <li>
+                                        <div class="icon-arow">
+    
+                                            <img src="./style/image/arrow-right.svg" alt="persone">
+                                        </div>
+                                        <p>view All</p>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="overview">
+
+                        <div class="title">
+                            <div class=" first flex">
+                                <div></div>
+                                <h4>Product views</h4>
+        
+                            </div>
+                            <select name="time" id="time">
+                               
+                                    <option class="option" value="allTime">Last 7 days</option>
+                                    <option class="option" value="inYear">this month</option>
+                                    <option class="option" value="perMonth">All time</option>
+        
+                               
+        
+                            </select>
+                        
+                        </div>
+                       <div class="charts">
+                        <div class="num"><p>50</p> <p>40</p> <p>30</p> <p>20</p> <p>10</p> <p>0</p> </div>
+                        <div class="con-chart">
+                            <div class="column-chart" id="c-1"></div>
+                            <p>22</p>
+                        </div>
+                        <div class="con-chart">
+                            <div class="column-chart" id="c-2"></div>
+                            <p>23</p>
+                        </div>
+                        <div class="con-chart">
+                            <div class="column-chart" id="c-3"></div>
+                            <p>24</p>
+                        </div>
+                        <div class="con-chart">
+                            <div class="column-chart" id="c-4"></div>
+                            <p>25</p>
+                        </div>
+                        <div class="con-chart">
+                            <div class="column-chart" id="c-5"></div>
+                            <p>26</p>
+                        </div>
+                       </div>
+                    </div>
+                     </div>
+                <div class="right-page">
+                    <div class="persons">
+
+                        <div class=" first flex">
+                            <div></div>
+                            <h4>Popular products</h4>
+        
+                        </div>
+                        <div class="product">
+                            <p>Persone</p>
+                            <p>Earning</p>
+                        </div>
+                        <ul>
+                            <li class="flex">
+                                <img src="./style/image/images.jpeg" alt="person">
+                                <p>Lorem ipsum dolor sit amet</p>
+                                <div>
+                                    <p>$2,453.80</p>
+                                    <div class="active">Activ</div>
+                                </div>
+                            </li>
+                            <li class="flex">
+                                <img src="./style/image/download (1).jpeg" alt="person">
+                                <p>Lorem ipsum dolor sit amet</p>
+                                <div>
+                                    <p>$2,453.80</p>
+                                    <div class="dectiv">Dective</div>
+                                </div>
+                            </li>
+                            <li class="flex">
+                                <img src="./style/image/download.jpeg" alt="person">
+                                <p>Lorem ipsum dolor sit amet</p>
+                                <div>
+                                    <p>$2,453.80</p>
+                                    <div class="active">Activ</div>
+                                </div>
+                            </li>
+                            <li class="flex">
+                                <img src="./style/image/download (3).jpeg" alt="person">
+                                <p>Lorem ipsum dolor sit amet</p>
+                                <div>
+                                    <p>$2,453.80</p>
+                                    <div class="active">Activ</div>
+                                </div>
+                            </li>
+                            <li class="flex">
+                                <img src="./style/image/download (2).jpeg" alt="person">
+                                <p>Lorem ipsum dolor sit amet</p>
+                                <div>
+                                    <p>$2,453.80</p>
+                                    <div class="dectiv">Dective</div>
+                                </div>
+                            </li>
+                            <li class="flex">
+                                <img src="./style/image/download.jpeg" alt="person">
+                                <p>Lorem ipsum dolor sit amet</p>
+                                <div>
+                                    <p>$2,453.80</p>
+                                    <div class="dectiv">Dective</div>
+                                </div>
+                            </li>
+                           
+                           
+                            
+                        </ul>
+                        <button>All person</button>
+                    </div>
+                    <div class="persons">
+
+                        <div class=" first flex">
+                            <div class="comment-befor"></div>
+                            <h4>Comment</h4>
+        
+                        </div>
+                       <div class="card-comment">
+                        <img class="img" src="./style/image/download.jpeg" alt="">
+                        <div class="content">
+                            <p class="p-1">laryheg <span>@sitamet.feacbook.com<br> on</span> adipisicing elit. </p>
+                            <p class="p-2">Lorem ipsum dolor sit amet.</p>
+                            <div class="icon-com">
+                                <img src="./style/image/chat-left-text.svg" alt="">
+                                <img src="./style/image/heart.svg" alt="">
+                                <img src="./style/image/paperclip.svg" alt="">
+                            </div>
+                        </div>
+                        
+                       </div>
+                       <div class="card-comment">
+                        <img class="img" src="./style/image/download (2).jpeg" alt="">
+                        <div class="content">
+                            <p class="p-1">laryheg <span>@sitamet.feacbook.com<br> on</span> adipisicing elit. </p>
+                            <p class="p-2">Lorem ipsum dolor sit amet.</p>
+                            <div class="icon-com">
+                                <img src="./style/image/chat-left-text.svg" alt="">
+                                <img src="./style/image/heart.svg" alt="">
+                                <img src="./style/image/paperclip.svg" alt="">
+                            </div>
+                        </div>
+                        
+                       </div>
+                       <div class="card-comment">
+                        <img class="img" src="./style/image/download (3).jpeg" alt="">
+                        <div class="content">
+                            <p class="p-1">laryheg <span>@sitamet.feacbook.com<br> on</span> adipisicing elit. </p>
+                            <p class="p-2">Lorem ipsum dolor sit amet.</p>
+                            <div class="icon-com">
+                                <img src="./style/image/chat-left-text.svg" alt="">
+                                <img src="./style/image/heart.svg" alt="">
+                                <img src="./style/image/paperclip.svg" alt="">
+                            </div>
+                        </div>
+                        
+                       </div>
+                       <div class="card-comment">
+                        <img class="img" src="./style/image/download (1).jpeg" alt="">
+                        <div class="content">
+                            <p class="p-1">laryheg <span>@sitamet.feacbook.com<br> on</span> adipisicing elit. </p>
+                            <p class="p-2">Lorem ipsum dolor sit amet.</p>
+                            <div class="icon-com">
+                                <img src="./style/image/chat-left-text.svg" alt="">
+                                <img src="./style/image/heart.svg" alt="">
+                                <img src="./style/image/paperclip.svg" alt="">
+                            </div>
+                        </div>
+                        
+                       </div>
+                        <button>view All</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        
+    </div>
+    
+</div>
+
+</body>
+</html>
